@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\AngularAuthAPI.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\AngularAuthAPI.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\AngularAuthAPI.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0\AngularAuthAPI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net6.0\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="obj\Debug\net6.0\refint\" />
+    <Folder Include="obj\Debug\net6.0\ref\" />
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\AngularAuthAPI.csproj.nuget.g.props" />
+    <None Include="obj\AngularAuthAPI.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0\AngularAuthAPI.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\AngularAuthAPI.assets.cache" />
+    <None Include="obj\Debug\net6.0\AngularAuthAPI.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\AngularAuthAPI.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+</Project>
